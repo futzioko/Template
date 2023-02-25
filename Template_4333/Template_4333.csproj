@@ -56,6 +56,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="4333_Davliev.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="4333_Gibadulllina.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -64,6 +68,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="4333_Davliev.xaml.cs">
+      <DependentUpon>4333_Davliev.xaml</DependentUpon>
+    </Compile>
     <Compile Include="4333_Gibadulllina.xaml.cs">
       <DependentUpon>4333_Gibadulllina.xaml</DependentUpon>
     </Compile>
