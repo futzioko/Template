@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Template_4333"
         mc:Ignorable="d"
-        Title="_4333_Davliev" Height="450" Width="800">
+        Title="_4333_Davliev" Height="450" Width="400">
     <Grid>
-        <Label>Алмаз 18 лет</Label>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" HorizontalAlignment="Center">Алмаз 18 лет</Label>
+        <Button Content="Импорт данных" Grid.Row="1" Click="Button_Click"/>
+        <Button Content="Экспорт данных" Grid.Row="2" Click="Button_Click_1"/>
     </Grid>
 </Window>
