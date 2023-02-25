@@ -35,5 +35,6 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
+        <Button Content="Нуя)" HorizontalAlignment="Center" Grid.Row="7" VerticalAlignment="Center" Height="30" Width="400" Click="Button_Click"/>
     </Grid>
 </Window>

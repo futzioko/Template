@@ -1,0 +1,13 @@
+﻿<Window x:Class="Template_4332._4332_Ismailov"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Template_4332"
+        mc:Ignorable="d"
+        Title="_4332_Ismailov" Height="450" Width="800">
+    <Grid>
+        <Label Content="исмаил 18 лет пошлый" HorizontalAlignment="Left" Margin="187,142,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -10,25 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Template_4332
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для _4332_Ismailov.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class _4332_Ismailov : Window
     {
-        public MainWindow()
+        public _4332_Ismailov()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            _4332_Ismailov window = new _4332_Ismailov();
-            window.Show();
         }
     }
 }
