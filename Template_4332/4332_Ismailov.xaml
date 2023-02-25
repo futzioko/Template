@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="_4332_Ismailov" Height="450" Width="800">
     <Grid>
-        <Label Content="исмаил 18 лет пошлый" HorizontalAlignment="Left" Margin="187,142,0,0" VerticalAlignment="Top"/>
+        <Label Content="исмаил 18 лет пошлый" HorizontalAlignment="Left" Margin="289,24,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="workersDataGrid" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button Content="Импорт из таблицы" HorizontalAlignment="Left" Margin="122,205,0,0" VerticalAlignment="Top" Click="Import_Button_Click"/>
+        <Button Content="Экспорт в таблицу" HorizontalAlignment="Left" Margin="496,215,0,0" VerticalAlignment="Top" Click="Export_Button_Click"/>
 
     </Grid>
 </Window>
