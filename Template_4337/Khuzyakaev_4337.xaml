@@ -13,8 +13,29 @@
                 Property="HorizontalAlignment"
                 Value="Center"/>
         </Style>
+        <Style
+            TargetType="{x:Type Button}">
+            <Setter
+                Property="Width"
+                Value="140"/>
+            <Setter
+                Property="Height"
+                Value="50"/>
+            <Setter
+                Property="Margin"
+                Value="5"/>
+            <Setter
+                Property="FontSize"
+                Value="18"/>
+        </Style>
     </Window.Resources>
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="Auto"/>
+            <RowDefinition
+                Height="*"/>
+        </Grid.RowDefinitions>
         <StackPanel
             VerticalAlignment="Center">
             <TextBlock Text="4337 - Хузякаев Вадим - 17"
@@ -25,6 +46,20 @@
                     github link
                 </Hyperlink>
             </TextBlock>
+        </StackPanel>
+        <StackPanel
+            Grid.Row="1"
+            Orientation="Horizontal"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top">
+            <Button
+                x:Name="ImportButton"
+                Content="Импорт данных"
+                Click="ImportButton_OnClick"/>
+            <Button
+                x:Name="ExportButton"
+                Content="Экспорт в Excel"
+                Click="ExportButton_OnClick"/>
         </StackPanel>
     </Grid>
 </Window>
