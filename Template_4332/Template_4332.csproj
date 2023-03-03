@@ -60,12 +60,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="4332_SafronovWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="4332_Khamitova.xaml.cs">
       <DependentUpon>4332_Khamitova.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4332_SafronovWindow.xaml.cs">
+      <DependentUpon>4332_SafronovWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
