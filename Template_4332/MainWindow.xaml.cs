@@ -29,5 +29,11 @@ namespace Template_4332
             _4332_Khamitova elina= new _4332_Khamitova();
             elina.Show();
         }
+
+        private void btn_4332_Safronov_Click(object sender, RoutedEventArgs e)
+        {
+            _4332_SafronovWindow window = new _4332_SafronovWindow();
+            window.Show();
+        }
     }
 }
