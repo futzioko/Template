@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="_4332_SafronovWindow" Height="300" Width="300">
-    <Grid>
-        <Label Content="Cафронов Михаил 18 лет" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
-    </Grid>
+    <StackPanel>
+        <Label Content="Cафронов Михаил 18 лет" HorizontalAlignment="Center" FontSize="20"/>
+        <Separator Opacity="0" Height="5"/>
+        <Button x:Name="btnExport" Content="Экспорт" Click="btnExport_Click"/>
+        <Separator Opacity="0" Height="5"/>
+        <Button x:Name="btnImport" Content="Импорт" Click="btnImport_Click"/>
+    </StackPanel>
 </Window>
