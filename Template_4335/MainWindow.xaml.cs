@@ -24,5 +24,12 @@ namespace Template_4335
         {
             InitializeComponent();
         }
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+            var form = new _4335_Gibadullina();
+            form.Show();
+            this.Hide();
+        }
     }
 }
