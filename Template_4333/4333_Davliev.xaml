@@ -12,8 +12,8 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Grid.Row="0" HorizontalAlignment="Center">Алмаз 18 лет</Label>
-        <Button Content="Импорт данных" Grid.Row="1" Click="Button_Click"/>
-        <Button Content="Экспорт данных" Grid.Row="2" Click="Button_Click_1"/>
+        <Label Grid.Row="0" HorizontalAlignment="Center">Давлиев Алмаз 18 лет</Label>
+        <Button Content="Импорт данных" Grid.Row="1" Click="Import_Click"/>
+        <Button Content="Экспорт в Excel" Grid.Row="2" Click="Export_Click"/>
     </Grid>
 </Window>
