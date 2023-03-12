@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="_4332_Spiridonov" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="108" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="2" Margin="346,0,0,0">5 вариант</Label>
+        <Button Grid.Column="0" x:Name="import" Width="109" Height="30" VerticalAlignment="Center" Background="Bisque" Content="Импорт данных" Click="import_Click" Margin="145,0,146,0" Grid.Row="1"></Button>
+        <Button Grid.Column="1" x:Name="export" Width="109" Height="30" Background="Bisque" Content="Экспорт в Excel" Margin="145,0,146,0" Grid.Row="1" Click="export_Click" />
     </Grid>
 </Window>
