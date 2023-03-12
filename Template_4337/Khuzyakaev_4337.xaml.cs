@@ -10,7 +10,7 @@ namespace Template_4337
         {
             InitializeComponent();
         }
-        
+
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             // for .NET Core you need to add UseShellExecute = true

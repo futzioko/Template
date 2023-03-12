@@ -1,0 +1,31 @@
+﻿<Window x:Class="Template_4337._4337_Gumerov"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Template_4337"
+        mc:Ignorable="d"
+        Title="_4337_Gumerov" Height="300" Width="530">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="217*"/>
+            <RowDefinition Height="67*"/>
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="20"
+                   TextAlignment="Center"
+                   Margin="10,10,10,10" 
+                   FontWeight="Bold"
+                   Text="Гумеров Радмир Булатович 4337"
+                   Grid.Row="0" />
+        <Button Width="100"
+                HorizontalAlignment="Left"
+                Content="Импорт данных" 
+                Grid.Row="1"
+                Click="Import"/>
+        <Button Width="100"
+                HorizontalAlignment="Right"
+                Content="Экспорт Эксель" 
+                Grid.Row="1"
+                Click="Export"/>
+    </Grid>
+</Window>
