@@ -36,5 +36,6 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <Button x:Name="Khuzyakaev_4337" Content="Хузякаев Вадим 4337" Grid.Row="15" Click="Khuzyakaev_4337_Click"/>
+        <Button x:Name ="Gumerov_4337" Content="Гумеров Радмир 4337" Grid.Row="7" Click="Gumerov_4337_Click" />
     </Grid>
 </Window>
