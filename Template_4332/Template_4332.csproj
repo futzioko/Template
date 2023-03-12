@@ -94,6 +94,9 @@
     <Compile Include="EntityModel.cs">
       <DependentUpon>ModelCont.tt</DependentUpon>
     </Compile>
+    <Compile Include="EntityModel2.cs">
+      <DependentUpon>ModelExcel.tt</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -110,6 +113,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model2.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model2.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
     <Compile Include="ModelCont.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -119,6 +132,16 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ModelCont.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ModelExcel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelExcel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelExcel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelExcel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -144,6 +167,13 @@
     <None Include="ModelCont.edmx.diagram">
       <DependentUpon>ModelCont.edmx</DependentUpon>
     </None>
+    <EntityDeploy Include="ModelExcel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelExcel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ModelExcel.edmx.diagram">
+      <DependentUpon>ModelExcel.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -167,6 +197,16 @@
       <LastGenOutput>Model.cs</LastGenOutput>
       <DependentUpon>ModelCont.edmx</DependentUpon>
     </Content>
+    <Content Include="Model2.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model2.Context.cs</LastGenOutput>
+      <DependentUpon>ModelExcel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model2.cs</LastGenOutput>
+      <DependentUpon>ModelExcel.edmx</DependentUpon>
+    </Content>
     <Content Include="ModelCont.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ModelCont.Context.cs</LastGenOutput>
@@ -177,6 +217,17 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ModelCont.cs</LastGenOutput>
       <DependentUpon>ModelCont.edmx</DependentUpon>
+    </Content>
+    <Content Include="ModelExcel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelExcel.Context.cs</LastGenOutput>
+      <DependentUpon>ModelExcel.edmx</DependentUpon>
+    </Content>
+    <Content Include="ModelExcel.edmx.sql" />
+    <Content Include="ModelExcel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelExcel.cs</LastGenOutput>
+      <DependentUpon>ModelExcel.edmx</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
