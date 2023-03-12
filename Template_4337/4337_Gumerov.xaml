@@ -7,10 +7,25 @@
         mc:Ignorable="d"
         Title="_4337_Gumerov" Height="300" Width="530">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="217*"/>
+            <RowDefinition Height="67*"/>
+        </Grid.RowDefinitions>
         <TextBlock FontSize="20"
                    TextAlignment="Center"
-                   Margin="10" 
+                   Margin="10,10,10,10" 
                    FontWeight="Bold"
-                   Text="Гумеров Радмир Булатович 4337"/>
+                   Text="Гумеров Радмир Булатович 4337"
+                   Grid.Row="0" />
+        <Button Width="100"
+                HorizontalAlignment="Left"
+                Content="Импорт данных" 
+                Grid.Row="1"
+                Click="Import"/>
+        <Button Width="100"
+                HorizontalAlignment="Right"
+                Content="Экспорт Эксель" 
+                Grid.Row="1"
+                Click="Export"/>
     </Grid>
 </Window>
