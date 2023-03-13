@@ -8,23 +8,27 @@
         Title="_4335_Gibadullina" Height="450" Width="600">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.5*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="0.5*"/>
+            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Grid.Row="0" Content="Гибадуллина Альмира 4333" Margin="10" HorizontalAlignment="Center"/>
-        <ScrollViewer>
-
-        </ScrollViewer>
+        <Label Grid.Row="0" Content="Гибадуллина Альмира 4333" Margin="10" HorizontalAlignment="Center" FontSize="24"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Импорт данных в Excel" Height="50" Foreground="White" Background="Black" Click="Button_Click" Margin="100,47,36,48"/>
+            <Button Grid.Column="1" Content="Экспорт в Excel" Width="100" Height="50" Background="#FF0A0A0A" Foreground="White" Click="Button_Click_1"/>
+        </Grid>
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Content="Импорт данных" Width="100" Height="50" Foreground="White" Background="Black" Click="Button_Click"/>
-            <Button Grid.Column="1" Content="Экспорт в Excel" Width="100" Height="50" Background="#FF0A0A0A" Foreground="White" Click="Button_Click_1"/>
+            <Button Grid.Column="0" Content="Импорт JSON данных" Height="50" Foreground="White" Background="Black" Click="Button_Click_2" Margin="100,6,43,6"/>
+            <Button Grid.Column="1" Content="Экспорт в Word" Width="100" Height="50" Background="#FF0A0A0A" Foreground="White" Click="Button_Click_3"/>
         </Grid>
-
     </Grid>
 
 </Window>
