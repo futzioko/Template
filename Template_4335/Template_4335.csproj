@@ -77,6 +77,9 @@
     <Compile Include="Windows\Maksimov_4335.xaml.cs">
       <DependentUpon>Maksimov_4335.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Garipov_4335.xaml.cs">
+      <DependentUpon>Garipov_4335.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Sal4335.xaml.cs">
       <DependentUpon>Sal4335.xaml</DependentUpon>
     </Compile>
@@ -123,6 +126,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Windows\Maksimov_4335.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Garipov_4335.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
