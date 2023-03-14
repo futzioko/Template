@@ -1,0 +1,29 @@
+﻿<Window x:Class="Template_4335.Windows.Mukhametzyanova_M_4335"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Template_4335.Windows"
+        mc:Ignorable="d"
+        Title="Mukhametzyanova_M_4335" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Мухаметзянова Миляуша 4335" Margin="10" HorizontalAlignment="Center"/>
+        <ScrollViewer>
+
+        </ScrollViewer>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Импорт данных" Width="100" Height="50" Foreground="Black" Background="Pink" Click="Button_Click"/>
+            <Button Grid.Column="1" Content="Экспорт в Excel" Width="100" Height="50" Foreground="Black" Background="Pink" Click="Button_Click_1"/>
+        </Grid>
+
+    </Grid>
+</Window>
