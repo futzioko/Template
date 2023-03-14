@@ -85,5 +85,10 @@ namespace Template_4335
             Akhmetova_4335 ak = new Akhmetova_4335();
             ak.Show();
         }
+
+        private void Mukhametzyanova_4335_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
