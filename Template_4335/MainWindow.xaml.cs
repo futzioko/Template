@@ -85,5 +85,11 @@ namespace Template_4335
             Akhmetova_4335 ak = new Akhmetova_4335();
             ak.Show();
         }
+
+        private void Garipov_4335_Click(object sender, RoutedEventArgs e)
+        {
+            Garipov_4335 m = new Garipov_4335();
+            m.Show();
+        }
     }
 }
