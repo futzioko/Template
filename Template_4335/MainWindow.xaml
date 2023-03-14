@@ -43,6 +43,7 @@
         <Button x:Name="Gazizullin_4335" Content="Газизуллин Булат 4335" Grid.Row="7" Click="Gazizullin_4335_Click"/>
         <Button Content="Саляхов Адель 4335" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Width="400" Height="30" Click="Button_Click"/>
         <Button x:Name="Muhametzanova_4335" Content="Мухаметзянова Алина 4335" Grid.Row="14" Click="Muhametzanova_4335_Click"/>
+        <Button x:Name="Nurmiev_4335" Content="Нурмиев Адель 4335" Grid.Row="20" Click="Nurmiev_4335_Click"/>
         <Button x:Name="Klevtsov_4335" Content="Клевцов Ярослав 4335" Grid.Row="15" Click="Klevtsov_4335_Click"/>
         <Button x:Name="Makhov_4335" Content="Махов Алексей 4335" Grid.Row="15" Click="Makhov_4335_Click"/>
         <Button x:Name="Sitdikov_4335" Content="Ситдиков Ильдар 4335" Grid.Row="16" Click="Sitdikov_4335_Click"/>
