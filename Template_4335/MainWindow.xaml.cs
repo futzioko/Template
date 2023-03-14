@@ -88,7 +88,8 @@ namespace Template_4335
 
         private void Mukhametzyanova_4335_Click(object sender, RoutedEventArgs e)
         {
-
+            Mukhametzyanova_M_4335 mm = new Mukhametzyanova_M_4335();
+            mm.Show();
         }
     }
 }

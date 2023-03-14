@@ -45,8 +45,8 @@
         <Button x:Name="Mukhametzyanova_4335" Content="Мухаметзянова Миляуша 4335" Grid.Row="13" Click="Mukhametzyanova_4335_Click"/>
         <Button x:Name="Muhametzanova_4335" Content="Мухаметзянова Алина 4335" Grid.Row="14" Click="Muhametzanova_4335_Click"/>
         <Button x:Name="Klevtsov_4335" Content="Клевцов Ярослав 4335" Grid.Row="15" Click="Klevtsov_4335_Click"/>
-        <Button x:Name="Makhov_4335" Content="Махов Алексей 4335" Grid.Row="15" Click="Makhov_4335_Click"/>
-        <Button x:Name="Sitdikov_4335" Content="Ситдиков Ильдар 4335" Grid.Row="16" Click="Sitdikov_4335_Click"/>
+        <!--<Button x:Name="Makhov_4335" Content="Махов Алексей 4335" Grid.Row="15" Click="Makhov_4335_Click"/>
+        <Button x:Name="Sitdikov_4335" Content="Ситдиков Ильдар 4335" Grid.Row="16" Click="Sitdikov_4335_Click"/>-->
         <Button x:Name="Maksimov_4335" Content="Максимов Михаил 4335" Grid.Row="17" Click="Maksimov_4335_Click"/>
        
     </Grid>

@@ -7,8 +7,23 @@
         mc:Ignorable="d"
         Title="Mukhametzyanova_M_4335" Height="450" Width="800">
     <Grid>
-        <TextBlock Text="Изменения выполнил студент группы 4335 Мухаметзянова Миляуша"
-               HorizontalAlignment="Center" VerticalAlignment="Center"
-               FontSize="30" TextWrapping="Wrap" FontStyle="Italic"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Мухаметзянова Миляуша 4335" Margin="10" HorizontalAlignment="Center"/>
+        <ScrollViewer>
+
+        </ScrollViewer>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Импорт данных" Width="100" Height="50" Foreground="Black" Background="Pink" Click="Button_Click"/>
+            <Button Grid.Column="1" Content="Экспорт в Excel" Width="100" Height="50" Foreground="Black" Background="Pink" Click="Button_Click_1"/>
+        </Grid>
+
     </Grid>
 </Window>

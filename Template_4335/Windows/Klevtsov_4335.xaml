@@ -8,7 +8,7 @@
         Title="Klevtsov_4335" Height="450" Width="800">
     <Grid>
         <TextBox HorizontalAlignment="Left" Margin="160,155,0,0" TextWrapping="Wrap" Text="Изменения выполнил студент группы 4335 Клевцов Ярослав
-" VerticalAlignment="Top" Width="349" TextChanged="TextBox_TextChanged"/>
+" VerticalAlignment="Top" Width="349"/>
 
     </Grid>
 </Window>
